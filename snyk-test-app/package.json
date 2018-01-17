@@ -1,0 +1,32 @@
+{
+  "name": "snyk-demo-app",
+  "version": "0.0.1",
+  "description": "A demo application for Snyk. With added scripts.",
+  "homepage": "https://snyk.io/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Snyk/snyk-demo-app.git"
+  },
+  "licenses": [
+    {
+      "type": "Apache License, Version 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ],
+  "scripts": {
+    "start": "node index.js",
+    "snyk":"snyk"
+  },
+  "dependencies": {
+    "falcor-hapi": "netflix/falcor-hapi",
+    "falcor-router-demo": "1.0.3",
+    "hapi": "^10.5.0",
+    "inert": "^3.2.0",
+    "bassmaster": "1.5.1",
+    "snyk-demo-child": "0.0.1",
+    "azure-mgmt-storage": "^0.9.16"
+  },
+  "devDependencies": {
+    "snyk": "^1.68.1"
+  }
+}

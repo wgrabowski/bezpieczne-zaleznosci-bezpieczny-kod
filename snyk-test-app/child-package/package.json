@@ -1,0 +1,22 @@
+{
+  "name": "snyk-demo-child",
+  "version": "0.0.1",
+  "description": "A demo child package for Snyk",
+  "homepage": "https://snyk.io/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Snyk/snyk-demo-app.git"
+  },
+  "licenses": [
+    {
+      "type": "Apache License, Version 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "handlebars": "^3.0.0"
+  }
+}
